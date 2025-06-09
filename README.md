@@ -7,6 +7,7 @@ This repository contains all resources, code, and data used in the research **"E
 This study presents a comprehensive comparative analysis of 23 Large Language Models (LLMs) for sentiment analysis in Brazilian Portuguese texts, evaluating 13 state-of-the-art multilingual models and 10 Portuguese-specialized models through the in-context learning (ICL) paradigm.
 
 ### Key Contributions
+
 - Comparative evaluation of large-scale LLMs (>70B parameters) vs. small-scale LLMs (<13B parameters)
 - Analysis of the impact of linguistic specialization in Brazilian Portuguese
 - Benchmarking across 12 public sentiment analysis datasets
@@ -18,10 +19,12 @@ This study presents a comprehensive comparative analysis of 23 Large Language Mo
 The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 
 ### Translated Datasets
+
 - **IMDB_PT**: Translated movie reviews
 - **SST2_PT**: Translated Stanford Sentiment Treebank
 
 ### Native Datasets
+
 - **TweetSentBr**: Social media posts
 - **ReLI**: Book reviews
 - **Computer-BR**: Computer-related posts
@@ -36,16 +39,19 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 ## 🤖 Evaluated Models
 
 ### Generalist Models (>70B parameters)
+
 - Claude-3.5-Sonnet
 - GPT-4o
 - Gemini-1.5-Pro
 - DeepSeek-V3
 
 ### PT-BR Specialized Models (>70B parameters)
+
 - Sabiá-3
 - Sabiá-2-Medium
 
 ### Generalist Models (<13B parameters)
+
 - LLaMA-3/3.1-8B-Instruct
 - Gemma-7B/2-9B-Instruct
 - Qwen-2-7B-Instruct
@@ -53,10 +59,12 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 - DeepSeek-R1-Distill (7B/8B)
 
 ### PT-BR Specialized Models (<13B parameters)
+
 - Bode Family (7B, 13B, 3.1-8B)
 - Cabra Family (LLaMA-3-8B, Mistral-7B)
 - Sabiá-7B
 - GemBode and InternLM-ChatBode variants
+
 ## 📈 Main Results
 
 - **Large-scale models** achieved accuracy exceeding 92%
@@ -68,6 +76,7 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 ## 📋 Methodology
 
 ### In-Context Learning (ICL)
+
 - **6 demonstrations** randomly selected per dataset
 - **Structured prompt** in Brazilian
 
@@ -82,16 +91,19 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 ## 📋 Methodology
 
 ### In-Context Learning (ICL)
+
 - **6 demonstrations** randomly selected per dataset
 - **Structured prompt** in Brazilian Portuguese with JSON specification
 - **Binary classification** (positive/negative)
 
 ### Evaluation Metrics
+
 - **Accuracy**: Primary metric
 - **Macro F1 Score**: Complementary metric for imbalanced datasets
 - **Hallucination rate**: Responses outside expected format
 
 ### Statistical Analysis
+
 - **Wilcoxon test** for paired samples (α = 5%)
 - **Comparative analysis** between model categories
 
