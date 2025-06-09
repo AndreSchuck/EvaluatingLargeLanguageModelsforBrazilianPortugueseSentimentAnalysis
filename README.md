@@ -78,21 +78,6 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 ### In-Context Learning (ICL)
 
 - **6 demonstrations** randomly selected per dataset
-- **Structured prompt** in Brazilian
-
-## 📈 Main Results
-
-- **Large-scale models** achieved accuracy exceeding 92%
-- **Small-scale models** top performers reached accuracy above 90%
-- **Linguistic specialization** showed mixed results, reducing hallucinations but not always improving performance
-- **Newer models** consistently outperformed previous versions
-- **All LLMs** significantly surpassed traditional machine learning methods
-
-## 📋 Methodology
-
-### In-Context Learning (ICL)
-
-- **6 demonstrations** randomly selected per dataset
 - **Structured prompt** in Brazilian Portuguese with JSON specification
 - **Binary classification** (positive/negative)
 
