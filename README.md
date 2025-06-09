@@ -44,6 +44,7 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 - GPT-4o
 - Gemini-1.5-Pro
 - DeepSeek-V3
+- DeepSeek-R1
 
 ### PT-BR Specialized Models (>70B parameters)
 
