@@ -14,6 +14,167 @@ This study presents a comprehensive comparative analysis of 23 Large Language Mo
 
 ## 🗂️ Repository Structure
 
+```bash
+.
+│   README.md
+│
+├───datasets
+│   ├───preprocessed
+│   │   │   readme.md
+│   │   │
+│   │   ├───Computer-BR
+│   │   │       computer-br_demo.csv
+│   │   │       computer-br_test.csv
+│   │   │       computer-br_train.csv
+│   │   │
+│   │   ├───Corpus-4p
+│   │   │       corpus-4p_demo.csv
+│   │   │       corpus-4p_test.csv
+│   │   │       corpus-4p_train.csv
+│   │   │
+│   │   ├───CSP_Eletronicos
+│   │   │       csp-eletronicos_demo.csv
+│   │   │       csp-eletronicos_test.csv
+│   │   │       csp-eletronicos_train.csv
+│   │   │
+│   │   ├───CSP_Livros
+│   │   │       csp-livros_demo.csv
+│   │   │       csp-livros_test.csv
+│   │   │       csp-livros_train.csv
+│   │   │
+│   │   ├───IMDB_PT
+│   │   │       imdb-pt_demo.csv
+│   │   │       imdb-pt_test.csv
+│   │   │       imdb-pt_train.csv
+│   │   │
+│   │   ├───MTMSLA
+│   │   │       mtmsla_demo.csv
+│   │   │       mtmsla_test.csv
+│   │   │       mtmsla_train.csv
+│   │   │
+│   │   ├───OPCovidBR
+│   │   │       opcovidbr_demo.csv
+│   │   │       opcovidbr_test.csv
+│   │   │       opcovidbr_train.csv
+│   │   │
+│   │   ├───ReLI
+│   │   │       reli_demo.csv
+│   │   │       reli_test.csv
+│   │   │       reli_train.csv
+│   │   │
+│   │   ├───RePRO
+│   │   │       repro_demo.csv
+│   │   │       repro_test.csv
+│   │   │       repro_train.csv
+│   │   │
+│   │   ├───SST2_PT
+│   │   │       sst2-pt_demo.csv
+│   │   │       sst2-pt_test.csv
+│   │   │       sst2-pt_train.csv
+│   │   │
+│   │   ├───TA-Restaurantes
+│   │   │       ta-restaurantes_demo.csv
+│   │   │       ta-restaurantes_test.csv
+│   │   │       ta-restaurantes_train.csv
+│   │   │
+│   │   └───TweetSentBR
+│   │           tweet-sent-br_demo.csv
+│   │           tweet-sent-br_test.csv
+│   │           tweet-sent-br_train.csv
+│   │
+│   └───raw
+│       │   readme.md
+│       │
+│       ├───Computer-BR
+│       │       Computer-BR.xlsx
+│       │       readme.md
+│       │
+│       ├───Corpus-4p
+│       │       10.txt
+│       │       11.txt
+│       │       30.txt
+│       │       31.txt
+│       │       readme.md
+│       │
+│       ├───CSP_Eletronicos
+│       │       readme.md
+│       │       sentencas.xlsx
+│       │
+│       ├───CSP_Livros
+│       │       corpus_book_reviews_portuguese.csv
+│       │       readme.md
+│       │
+│       ├───IMDB_PT
+│       │       readme.md
+│       │       test-all.csv
+│       │       train.csv
+│       │
+│       ├───MTMSLA
+│       │       mtmsla.xlsx
+│       │       readme.md
+│       │
+│       ├───OPCovidBR
+│       │       opcovidbr.csv
+│       │       readme.md
+│       │
+│       ├───ReLI
+│       │       readme.md
+│       │       ReLi-Amado.txt
+│       │       ReLi-Meyer.txt
+│       │       ReLi-Orwell.txt
+│       │       ReLi-Reboucas.txt
+│       │       ReLi-Salinger.txt
+│       │       ReLi-Saramago.txt
+│       │       ReLi-Sheldon.txt
+│       │
+│       ├───RePRO
+│       │       readme.md
+│       │       RePro.csv
+│       │
+│       ├───SST2_PT
+│       │       readme.md
+│       │       train.csv
+│       │       validation.csv
+│       │
+│       ├───TA-Restaurantes
+│       │       POL_restaurants.tsv
+│       │       readme.md
+│       │
+│       └───TweetSentBR
+│               readme.md
+│               test-00000-of-00001.parquet
+│               train-00000-of-00001.parquet
+│
+└───notebooks
+    ├───datasets
+    │       datasets_preprocessing.ipynb
+    │
+    └───models
+            bode_13b.ipynb
+            bode_3_1_8b_instruct_lora.ipynb
+            bode_7b.ipynb
+            cabrallama_3_8b.ipynb
+            cabramistral_v3_7b_32k.ipynb
+            claude_3_5_sonnet.ipynb
+            deepseek_r1.ipynb
+            deepseek_r1_distill_llama_8b.ipynb
+            deepseek_r1_distill_qwen_7b.ipynb
+            deepseek_v3.ipynb
+            gembode_7b_instruct.ipynb
+            gemini_1_5_pro.ipynb
+            gemma_2_9b_instruct.ipynb
+            gemma_7b_instruct.ipynb
+            gpt_4o.ipynb
+            Internlm_2_7b_chat.ipynb
+            InternLM_chatbode_7b.ipynb
+            llama_3_1_8b_instruct.ipynb
+            llama_3_8b_instruct.ipynb
+            qwen_2_7b_instruct.ipynb
+            sabia_2_medium.ipynb
+            sabia_3.ipynb
+            sabia_7b.ipynb
+```
+
 ## 📊 Evaluated Datasets
 
 The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
