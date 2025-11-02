@@ -259,7 +259,18 @@ The study utilized 12 public Brazilian Portuguese sentiment analysis datasets:
 If you use this work, please cite:
 
 ```bibtex
-
+@article{Schuck_Garcia_Manesco_Paiola_Papa_2025,
+	title        = {Evaluating Large Language Models for Brazilian Portuguese Sentiment Analysis: A Comparative Study of Multilingual State-of-the-Art vs. Brazilian Portuguese Fine-Tuned LLMs},
+	author       = {Schuck, André da Fonseca and Garcia, Gabriel Lino and Manesco, João Renato Ribeiro and Paiola, Pedro Henrique and Papa, João Paulo},
+	year         = {2025},
+	month        = {Oct.},
+	journal      = {Journal of the Brazilian Computer Society},
+	volume       = {31},
+	number       = {1},
+	pages        = {885–917},
+	doi          = {10.5753/jbcs.2025.5793},
+	url          = {https://journals-sol.sbc.org.br/index.php/jbcs/article/view/5793}
+}
 ```
 
 ## 🤝 Contributing
